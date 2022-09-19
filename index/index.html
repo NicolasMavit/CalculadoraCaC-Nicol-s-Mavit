@@ -1,0 +1,73 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora CaC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">  
+    <link href="http://fonts.cdnfonts.com/css/scientific-calculator-lcd" rel="stylesheet">             
+    <link rel="stylesheet" href="/estilos/styles.css">
+    <script src="/funcionalidad/index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <img src="/imagenes/logo.png" class="logo">
+        <div class="display">
+            <input id="display" type="text" class="form-control-lg text-right form-input" value="0" readonly value="Ingresá un número">
+        </div>
+        <div class="cajaDeBotones">
+            <div class="d-flex justify-content-between">
+                <button id="b1" type="button" class="estiloDeBotones">(</button>
+                <button id="b2" type="button" class="estiloDeBotones">)</button>
+                <button id="b3" type="button" class="estiloDeBotones">x!</button>
+                <button id="b4" type="button" class="estiloDeBotones">x²</button>
+                <button id="b5" type="button" class="estiloDeBotones">√</button>
+                <button id="b6" type="button" class="estiloDeBotones">n√</button>   
+            </div>
+            <div class="d-flex justify-content-between">
+                <button id="b7" type="button" class="estiloDeBotones">sin</button>
+                <button id="b8" type="button" class="estiloDeBotones">cos</button>
+                <button id="b9" type="button" class="estiloDeBotones">tg</button>
+                <button id="b10" type="button" class="estiloDeBotones">x³</button>
+                <button id="b11" type="button" class="estiloDeBotones">³√</button>
+                <button id="b12" type="button" class="estiloDeBotones">xⁿ</button>
+            </div>
+            <div class="d-flex justify-content-between">
+                <button id="b13" type="button" class="estiloDeBotones">1</button>
+                <button id="b14" type="button" class="estiloDeBotones">2</button>
+                <button id="b15" type="button" class="estiloDeBotones">3</button>
+                <button id="b16" type="button" class="estiloDeBotones">/</button>
+                <button id="b17" type="button" class="estiloDeBotones">%</button>
+                <button id="b18" type="button" class="estiloDeBotones">ln</button>
+            </div>
+            <div class="d-flex justify-content-between">
+                <button id="b19" type="button" class="estiloDeBotones">4</button>
+                <button id="b20" type="button" class="estiloDeBotones">5</button>
+                <button id="b21" type="button" class="estiloDeBotones">6</button>
+                <button id="b22" type="button" class="estiloDeBotones">*</button>
+                <button id="b23" type="button" class="estiloDeBotones">log</button>
+                <button id="b24" type="button" class="estiloDeBotones">e</button>
+            </div>
+            <div class="grid">
+                <div class="fila5 d-flex justify-content-between">
+                    <button id="b25" type="button" class="estiloDeBotones">7</button>
+                    <button id="b26" type="button" class="estiloDeBotones">8</button>
+                    <button id="b27" type="button" class="estiloDeBotones">9</button>
+                    <button id="b28" type="button" class="estiloDeBotones">-</button>
+                    <button id="b29" type="reset" class="estiloDeBotones">AC</button>
+                </div>
+                <div class="fila6 d-flex justify-content-between">
+                    <button id="b30" type="button" class="estiloDeBotones">.</button>
+                    <button id="b31" type="button" class="estiloDeBotones">0</button>
+                    <button id="b32" type="button" class="estiloDeBotones">π</button>
+                    <button id="b33" type="button" class="estiloDeBotones">+</button>
+                    <button id="b34" type="button" class="estiloDeBotones">MR</button> 
+                </div>
+                <div class="fila6BotonIgual">
+                    <button id="b35" type="button" class="estiloDeBotones botonIgual">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body></html>
